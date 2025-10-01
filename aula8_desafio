@@ -1,0 +1,94 @@
+# Cadastro
+
+dados_nomes = []
+dados_idades = []
+
+
+nome1 = input('Digite Seu Nome: ')
+idade1 = int(input('Idade: '))
+
+
+nome2 = input('Digite Seu Nome: ')
+idade2 = int(input('Idade: '))
+
+nome3 = input('Digite Seu Nome: ')
+idade3 = int(input('Idade: '))
+
+
+
+
+lista = [' ', ' ', ' ']
+
+ 
+print ('Preço Da Diaria:')
+
+
+quartos = [' ' "simples," "duplo", "luxo" ]
+valores = [0,100.,150.,250]
+
+print (quartos)
+print (valores)
+
+escolha1= input('Escolha O ID Do Quarto: ')
+escolha2 = input('Escolha O ID Do Quarto: ')
+escolha3 = input('Escolha O ID Do Quarto: ')
+
+
+
+dias1 = int(input('Informe Quantos Dias irá Ficar: '))
+print (escolha1)
+
+dias2 = int(input('Informe Quantos Dias irá Ficar: '))
+print (escolha2)
+
+dias3 = int(input('Informe Quantos Dias irá Ficar: '))
+print (escolha3)
+
+
+
+if escolha1 == 1:
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha1])
+cal = dias1 * valores [escolha1]
+print ('total',cal)
+
+else escolha1 == 2: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha1])
+cal = dias1 * valores [escolha2]
+print ('total',cal)
+
+else escolha1 == 3: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha1])
+cal = dias1 * valores [escolha3]
+print ('total',cal)
+
+
+if escolha2 == 1: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha2])
+cal = dias1 * valores [escolha1]
+print ('total',cal)
+
+else escolha2 == 2: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha2])
+cal = dias1 * valores [escolha2]
+print ('total',cal)
+
+else escolha2 == 3: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha2])
+cal = dias1 * valores [escolha3]
+print ('total',cal)
+
+
+if escolha3 == 1: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha3])
+cal = dias1 * valores [escolha1]
+print ('total',cal)
+
+else escolha3 == 2: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha3])
+cal = dias1 * valores [escolha2]
+print ('total',cal)
+
+else escolha3 == 3: 
+    print ('VC ESCOLHEU O QUARTO :', quartos [escolha3])
+cal = dias1 * valores [escolha3]
+print ('total',cal)
