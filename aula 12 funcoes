@@ -1,0 +1,99 @@
+
+def verificarparimpar(): 
+
+ numero = int(input("Digite um numero: "))
+ 
+ if numero % 2 == 0:
+    print(f"{numero} é par") 
+ else:
+    print(f"{numero} é impar") 
+  
+verificarparimpar()
+
+def multiplicar_tres_numeros():
+
+ num1 = int(input("Digite o numero: "))
+ num2 = int(input("Digite o numero: "))
+ num3 = int(input("Digite o numero: "))
+
+
+ print (num1 * num2 * num3)
+
+multiplicar_tres_numeros()
+
+
+def  valor_elevado():
+ base = int(input( "Base" ))
+ expoente = int(input( "Expoente" ))
+ resultado = base ** expoente
+ print (resultado)
+
+valor_elevado()
+
+def verificaridade():
+
+
+ idade = int(input('Digite Sua Idade: '))
+ if idade == 18:
+   print('Você tem 18 anos.')
+ else:
+   print('Você não tem 18 anos.')
+verificaridade()
+
+
+def calcular_idade():
+ data_atual = 2025
+ data_denascimento = int(input('Digite o Ano De Nasicmento:  '))
+ print (data_atual - data_denascimento)
+  
+calcular_idade()
+
+
+def verificar_campeao():
+campeaoo = [1958, 1962, 1970, 1994 , 2002]
+Digite = int(input("Digitar Um Dos Anos:"   ))
+camp = "Brazil Ganhou"
+
+if Digite in campeaoo == camp:
+  
+ verificar_campeao()
+
+
+def restaurante():
+ print(' ')
+Comidas = ['Salada, Macarronada, Sanduiche, Sorvete']
+
+print (Comidas)
+
+comida = input("Digite Qual Comida Deseja: ")
+
+def salada():
+  print("Obrigado Por Ter Escolhido.")
+
+def macarronada():
+  print("Obrigado Por Ter Escolhido.")
+
+def sanduiche():
+  print("Obrigado Por Ter Escolhido.")
+
+def sorvete():
+  print("Obrigado Por Ter Escolhido.")
+
+  if Comidas == 'Salada':
+    salada()
+  elif Comidas == 'Macarronada':
+    macarronada()
+  elif Comidas == 'Sanduiche':
+    sanduiche()
+  elif Comidas == 'Sorvete':
+    sorvete()
+  else:
+     print('Não Temos Isso Aqui.')
+
+
+restaurante()
+
+
+
+
+
